@@ -1,9 +1,9 @@
-.header{
+.header {
   z-index: auto;
   width: 100%;
 }
 
-.navbar_main-container{
+.navbar_main-container {
   height: 78px;
   width: 100%;
 }
@@ -17,7 +17,7 @@
 
 
 .left_container {
-  
+
   display: flex;
 }
 
@@ -48,13 +48,14 @@
 .menu_text:hover {
   color: blue;
 }
+
 /* .navigarion_container:hover {
   color: rgb(0, 45, 248);
 } */
 
 /* <---rigth_container--> */
 
-.rigth_container { 
+.rigth_container {
   display: flex;
   width: 150px;
   margin-right: 50px;
@@ -69,7 +70,7 @@
   margin-top: 20px;
 }
 
-.main_border-container{
+.main_border-container {
   width: 100%;
   background-color: grey;
   height: 1px;

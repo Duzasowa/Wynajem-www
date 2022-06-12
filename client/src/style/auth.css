@@ -5,84 +5,84 @@
 
 /*CONTAINER*/
 
-.container{
+.container {
   width: 815px;
   height: 640px;
   margin: auto;
 }
 
-.con-exit{
+.con-exit {
   display: inline;
-  font-family:'HelveticaNeueW01-Thin', 'HelveticaNeueW02-Thin', 'HelveticaNeueW10-35Thin', sans-serif;
+  font-family: 'HelveticaNeueW01-Thin', 'HelveticaNeueW02-Thin', 'HelveticaNeueW10-35Thin', sans-serif;
   font-size: 56px;
   font-weight: 700;
 }
 
-.con-d-h{
-  
-  font-family:'HelveticaNeueW01-45Ligh', 'HelveticaNeueW02-45Ligh', 'HelveticaNeueW10-45Ligh', sans-serif;
+.con-d-h {
+
+  font-family: 'HelveticaNeueW01-45Ligh', 'HelveticaNeueW02-45Ligh', 'HelveticaNeueW10-45Ligh', sans-serif;
   font-size: 18px;
   font-weight: 400;
   vertical-align: baseline;
 }
 
-.con-1{
+.con-1 {
   margin-top: 80px;
   height: 75px;
   text-align: center;
 }
 
-.con-2{
+.con-2 {
   text-align: center;
   height: 50px;
 }
 
-.con-href{
-  text-decoration: none; 
+.con-href {
+  text-decoration: none;
   color: #118cff;
 }
 
 
 /*Loginn - Registration*/
 
-.log-reg{
+.log-reg {
   height: 300px;
   display: flex;
 }
 
 /*REGIST*/
 
-.lr-regist{
+.lr-regist {
   width: 335.625px;
   height: 300px;
 }
 
-.reg-el{
+.reg-el {
   width: 100%;
   padding-top: 20px;
   height: 50px;
   margin-top: 10px;
 }
 
-.reg-log{
+.reg-log {
   width: 100%;
   height: 60px;
   margin-top: 10px;
   padding-top: 10px;
 }
 
-.reg-info{
+.reg-info {
   width: 100%;
   height: 55px;
   margin-top: 10px;
 }
 
-.reg-buttom{
+.reg-buttom {
   width: 100%;
   height: 75px;
 }
 
-#type{
+#type {
   width: 99%;
   height: 40px;
   border-width: 0px;
@@ -93,32 +93,32 @@
 
 /*CHECKBOX / REGISTRATIOM*/
 
-#checkbox{
+#checkbox {
   display: flex;
   font-size: 14px;
-  font-family:'HelveticaNeueW01-45Ligh', 'HelveticaNeueW02-45Ligh', 'HelveticaNeueW10-45Ligh', sans-serif;
+  font-family: 'HelveticaNeueW01-45Ligh', 'HelveticaNeueW02-45Ligh', 'HelveticaNeueW10-45Ligh', sans-serif;
 }
 
-.checkbox{
+.checkbox {
   width: 14px;
-  height: 14px; 
+  height: 14px;
   margin: 0 auto;
 }
 
-.checkbox-href{
+.checkbox-href {
   text-decoration: none;
-  font-family:'HelveticaNeueW01-45Ligh', 'HelveticaNeueW02-45Ligh', 'HelveticaNeueW10-45Ligh', sans-serif;
+  font-family: 'HelveticaNeueW01-45Ligh', 'HelveticaNeueW02-45Ligh', 'HelveticaNeueW10-45Ligh', sans-serif;
   color: black;
   margin-left: 23.7px;
 }
 
-.checkbox-href:hover{
+.checkbox-href:hover {
   color: #118cff;
 }
 
 /*BUTTON / REGISTRATION*/
 
-.buttom{
+.buttom {
   cursor: pointer;
   margin-top: 25px;
   border-radius: 20px;
@@ -128,10 +128,11 @@
   border-color: #118cff;
   min-width: 150px;
   min-height: 38px;
-  transition: all 0.6s ease;   /*плавно міняє колір*/
+  transition: all 0.6s ease;
+  /*плавно міняє колір*/
 }
 
-.buttom:hover{
+.buttom:hover {
   color: #fff;
   background-color: #118cff;
 }
@@ -140,12 +141,12 @@
 
 /*LINE*/
 
-.lr-line{
+.lr-line {
   width: 143.75px;
-  height: 300px;  
+  height: 300px;
 }
 
-.lr-line-1{
+.lr-line-1 {
   height: 300px;
   width: 1px;
   margin: auto;
@@ -156,54 +157,54 @@
 
 /*LOGINN*/
 
-.lr-log{
+.lr-log {
   width: 335.625px;
   height: 300px;
 }
 
-.but-contant{
+.but-contant {
   height: 27px;
   font-size: 17px;
   width: 100%;
   padding-top: 11px;
-  font-family:'HelveticaNeueW01-45Ligh', 'HelveticaNeueW02-45Ligh', 'HelveticaNeueW10-45Ligh', sans-serif;
+  font-family: 'HelveticaNeueW01-45Ligh', 'HelveticaNeueW02-45Ligh', 'HelveticaNeueW10-45Ligh', sans-serif;
   color: #fff;
   cursor: pointer;
 }
 
-.log-but-con2{
+.log-but-con2 {
   margin-top: 20px;
 }
 
-#log-but{
+#log-but {
   height: 30px;
 }
 
 /*GOOGLE*/
 
-.log-but-con1{
+.log-but-con1 {
   margin-top: 35px;
   cursor: pointer;
 }
 
 
-.log-but-google{
+.log-but-google {
   min-width: 100%;
   max-height: 65px;
   display: flex;
   background-color: #118cff;
-  padding: 0;  
-  border-color:#118cff;
-  cursor: pointer; 
+  padding: 0;
+  border-color: #118cff;
+  cursor: pointer;
 }
 
 
-.display-but-google{
+.display-but-google {
   background-color: #fff;
   padding-left: 5px;
   padding-right: 5px;
   padding-top: 3px;
-  height: 40px; 
+  height: 40px;
   width: 45px;
 }
 
@@ -216,24 +217,24 @@
 
 /*FACEBOOK*/
 
-.display-but-facebook{
+.display-but-facebook {
   background-color: #fff;
   padding-left: 5px;
   padding-right: 5px;
   padding-top: 5px;
   height: 40px;
-  width: 49px; 
+  width: 49px;
   cursor: pointer;
 }
 
-.log-but-facebook{
+.log-but-facebook {
   min-width: 100%;
   max-height: 65px;
   width: 45px;
   display: flex;
   background-color: rgb(59, 89, 152);
-  padding: 0;  
-  border-color:rgb(59, 89, 152); 
+  padding: 0;
+  border-color: rgb(59, 89, 152);
   cursor: pointer;
 }
 
@@ -247,13 +248,13 @@
 
 /*APPLE*/
 
-.display-but-apple{
+.display-but-apple {
   background-color: #fff;
   padding-left: 5px;
   padding-right: 5px;
   padding-top: 5px;
-  height: 40px; 
-  width: 49px; 
+  height: 40px;
+  width: 49px;
   border-right: 2px solid black;
   cursor: pointer;
 }
@@ -266,33 +267,33 @@
   background-size: cover;
 }
 
-.log-but-apple{
+.log-but-apple {
   min-width: 100%;
   max-height: 65px;
   display: flex;
   background-color: #fff;
-  padding: 0;  
+  padding: 0;
   border-color: solid rgb(0, 0, 0);
-  cursor: pointer; 
+  cursor: pointer;
 }
 
-.but-contant-apple{
+.but-contant-apple {
   height: 27px;
   font-size: 17px;
   width: 100%;
   padding-top: 11px;
-  font-family:'HelveticaNeueW01-45Ligh', 'HelveticaNeueW02-45Ligh', 'HelveticaNeueW10-45Ligh', sans-serif;
+  font-family: 'HelveticaNeueW01-45Ligh', 'HelveticaNeueW02-45Ligh', 'HelveticaNeueW10-45Ligh', sans-serif;
   color: rgb(0, 0, 0);
 }
 
 /*LOGIN HREF*/
 
-.href-login{
-  text-decoration: none; 
+.href-login {
+  text-decoration: none;
   color: #118cff;
 }
 
-.login-with{
+.login-with {
   width: 100%;
   height: 30px;
   text-align: center;
@@ -302,21 +303,21 @@
 
 /*INFO*/
 
-.cont-info-1{
+.cont-info-1 {
   text-align: center;
   line-height: 24px;
   font-size: 14px;
   margin-top: 65px;
-  font-family:'HelveticaNeueW01-45Ligh', 'HelveticaNeueW02-45Ligh', 'HelveticaNeueW10-45Ligh', sans-serif;
+  font-family: 'HelveticaNeueW01-45Ligh', 'HelveticaNeueW02-45Ligh', 'HelveticaNeueW10-45Ligh', sans-serif;
   width: 100%;
   height: 75px;
 }
 
-.cont-info-1:after{
+.cont-info-1:after {
   content: "";
   display: block;
   border-radius: 30px;
-  position:relative;
+  position: relative;
   top: 10px;
   left: 0;
   width: 40%;
@@ -325,17 +326,17 @@
   background-color: #c7cdd3
 }
 
-.cont-info-2{
+.cont-info-2 {
   margin-top: 20px;
   width: 100%;
   height: 60px;
 }
 
-.cont-info-2{
+.cont-info-2 {
   text-align: center;
   line-height: 24px;
   font-size: 14px;
-  font-family:'HelveticaNeueW01-45Ligh', 'HelveticaNeueW02-45Ligh', 'HelveticaNeueW10-45Ligh', sans-serif;
+  font-family: 'HelveticaNeueW01-45Ligh', 'HelveticaNeueW02-45Ligh', 'HelveticaNeueW10-45Ligh', sans-serif;
   width: 100%;
   height: 75px;
-}    
+}
