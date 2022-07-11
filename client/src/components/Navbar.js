@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
 import React from 'react';
 import '../style/navbar.css';
 import { Button } from '@mui/material';
@@ -10,9 +11,7 @@ const Navbar = () => {
         <div class="navbar_container">
           {/* <---left_container--> */}
           <div class="left_container">
-            <a href="/main" class="logo_container">
-              HORN
-            </a>
+            <a href="/main" class="logo_container" />
             <div class="navigarion_container">
               <div class="menu_text">Functions</div>
               <div class="menu_text">Gallary</div>

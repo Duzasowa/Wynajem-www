@@ -6,13 +6,17 @@ import Templates from './pages/templates ';
 import Support from './pages/support';
 import {
   ADMIN_ROUTE,
+  BAGS_ROUTE,
   LOGIN_ROUTE,
   MAIN_ROUTE,
   REGISTRATION_ROUTE,
   SUBSCRIPTIONS_ROUTE,
   SUPPORT_ROUTE,
   TEMPLATES_ROUTE,
+  TSHIRT_ROUTE,
 } from './utils/consts';
+import Bags from './templates/pages/Bags';
+import TShirt from './templates/pages/tShirt';
 
 export const authRoutes = [
   {
@@ -45,5 +49,16 @@ export const publicRoutes = [
   {
     path: SUPPORT_ROUTE,
     Component: Support,
+  },
+
+  // TEMPLATES
+
+  {
+    path: BAGS_ROUTE,
+    Component: Bags,
+  },
+  {
+    path: TSHIRT_ROUTE,
+    Component: TShirt,
   },
 ];

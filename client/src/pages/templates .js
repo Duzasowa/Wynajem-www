@@ -103,9 +103,9 @@ const Templates = () => {
             <div class="box box-3" />
           </div>
           <div class="pattern_text">
-            <div class="text">T-shirt shops</div>
-            <div class="text">Beauty salon</div>
-            <div class="text">Landing of goods</div>
+            <div class="templates_text">T-shirt shops</div>
+            <div class="templates_text">Beauty salon</div>
+            <div class="templates_text">Landing of goods</div>
           </div>
           {/* LINE 2  */}
           <div class="pattern_box">
@@ -114,9 +114,9 @@ const Templates = () => {
             <div class="box box-6" />
           </div>
           <div class="pattern_text">
-            <div class="text">Canned Drink Store</div>
-            <div class="text">Electronics store</div>
-            <div class="text">Accessories store</div>
+            <div class="templates_text">Canned Drink Store</div>
+            <div class="templates_text">Electronics store</div>
+            <div class="templates_text">Accessories store</div>
           </div>
           {/* LINE 3  */}
           <div class="pattern_box">
@@ -125,9 +125,9 @@ const Templates = () => {
             <div class="box box-9" />
           </div>
           <div class="pattern_text">
-            <div class="text">Health goods store</div>
-            <div class="text">Accessories store</div>
-            <div class="text">A clothing store</div>
+            <div class="templates_text">Health goods store</div>
+            <div class="templates_text">Accessories store</div>
+            <div class="templates_text">A clothing store</div>
           </div>
           {/* LINE 4  */}
           <div class="pattern_box">
@@ -136,9 +136,9 @@ const Templates = () => {
             <div class="box box-12" />
           </div>
           <div class="pattern_text">
-            <div class="text">Backpack store</div>
-            <div class="text">Hardware store</div>
-            <div class="text">Supermarket</div>
+            <div class="templates_text">Backpack store</div>
+            <div class="templates_text">Hardware store</div>
+            <div class="templates_text">Supermarket</div>
           </div>
         </div>
       </div>

@@ -5,3 +5,8 @@ export const REGISTRATION_ROUTE = '/auth';
 export const SUBSCRIPTIONS_ROUTE = '/subscriptions';
 export const TEMPLATES_ROUTE = '/templates';
 export const SUPPORT_ROUTE = '/support';
+
+// TEMPLATES
+
+export const TSHIRT_ROUTE = '/tshirt';
+export const BAGS_ROUTE = '/bags';
