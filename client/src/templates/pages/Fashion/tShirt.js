@@ -2,7 +2,7 @@
 import React from 'react';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
-import '../style/tshirt.css';
+import './style/tshirt.css';
 
 const TShirt = () => {
   return (

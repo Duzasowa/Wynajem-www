@@ -78,3 +78,9 @@
   height: 1px;
   opacity: .2;
 }
+
+/* @media (max-width: 945px) {
+  .navbar_button {
+    visibility: hidden;
+  }
+} */

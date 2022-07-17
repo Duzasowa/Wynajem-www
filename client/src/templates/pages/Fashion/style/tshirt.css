@@ -120,21 +120,21 @@
 .main_intro-img-1 {
   width: 26%;
   height: 600px;
-  background-image: url(../img/tshirt/img1.jpg);
+  background-image: url(../img/img1.jpg);
   background-size: cover;
 }
 
 .main_intro-img-2 {
   width: 47%;
   height: 600px;
-  background-image: url(../img/tshirt/img3.jpg);
+  background-image: url(../img/img3.jpg);
   background-size: cover;
 }
 
 .main_intro-img-3 {
   width: 26%;
   height: 600px;
-  background-image: url(../img/tshirt/img2.jpg);
+  background-image: url(../img/img2.jpg);
   background-size: cover;
 }
 

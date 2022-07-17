@@ -1,5 +1,5 @@
 import React from 'react';
-import '../style/bages.css';
+import './style/bags.css';
 
 const Bags = () => {
   return (

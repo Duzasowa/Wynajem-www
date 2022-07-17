@@ -1,52 +1,9 @@
 import React from 'react';
-import { styled, alpha } from '@mui/material/styles';
-import InputBase from '@mui/material/InputBase';
-import SearchIcon from '@mui/icons-material/Search';
+
 import '../style/templates.css';
 import { Pagination } from '@mui/material';
 import Types from '../components/Types';
-
-const Search = styled('div')(({ theme }) => ({
-  position: 'relative',
-  borderRadius: theme.shape.borderRadius,
-  backgroundColor: alpha(theme.palette.common.white, 0.15),
-  '&:hover': {
-    backgroundColor: alpha(theme.palette.common.white, 0.25),
-  },
-  marginLeft: 0,
-  width: '100%',
-  [theme.breakpoints.up('sm')]: {
-    marginLeft: theme.spacing(1),
-    width: 'auto',
-  },
-}));
-
-const SearchIconWrapper = styled('div')(({ theme }) => ({
-  padding: theme.spacing(0, 2),
-  height: '100%',
-  position: 'absolute',
-  pointerEvents: 'none',
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'center',
-}));
-
-const StyledInputBase = styled(InputBase)(({ theme }) => ({
-  color: 'inherit',
-  '& .MuiInputBase-input': {
-    padding: theme.spacing(1, 1, 1, 0),
-    // vertical padding + font size from searchIcon
-    paddingLeft: `calc(1em + ${theme.spacing(4)})`,
-    transition: theme.transitions.create('width'),
-    width: '100%',
-    [theme.breakpoints.up('sm')]: {
-      width: '12ch',
-      '&:focus': {
-        width: '20ch',
-      },
-    },
-  },
-}));
+import GlassEffect from '../components/GlassEffect';
 
 const Templates = () => {
   return (
@@ -55,35 +12,25 @@ const Templates = () => {
       <div class="templates_intro">
         <div class="templates_intro-container">
           <div class="templates_intro-text">
-            Choose a site template that you like
-          </div>
-          <div class="templates_intro-search">
-            <Search>
-              <SearchIconWrapper>
-                <SearchIcon />
-              </SearchIconWrapper>
-              <StyledInputBase
-                // style={{width: 300}}
-                placeholder="Search ..."
-                inputProps={{ 'aria-label': 'search' }}
-              />
-            </Search>
-            <div class="templates_border-search" />
+            Wybierzcie szablon strony internetowej, który wam podoba się
           </div>
         </div>
         <div class="templates_border" />
         <div class="templates_buttons-container">
           <div class="templates_buttons">
             <div class="templates_intro-button-text">
-              All templates
+              Wszystkie szablony
+              <i class="down" />
+              <div class="submenu">
+                Podmenu
+              </div>
+            </div>
+            <div class="templates_intro-button-text">
+              Puste szablony
               <i class="down" />
             </div>
             <div class="templates_intro-button-text">
-              Blank templates
-              <i class="down" />
-            </div>
-            <div class="templates_intro-button-text">
-              Other
+              Inni
               <i class="down" />
             </div>
           </div>
@@ -94,51 +41,124 @@ const Templates = () => {
       <div class="template_main-body">
         <Types />
       </div>
+      {/* Pattern */}
       <div class="pattern">
         <div class="pattern_container">
           {/* LINE 1  */}
           <div class="pattern_box">
-            <div class="box box-1" />
-            <div class="box box-2" />
-            <div class="box box-3" />
+            <div class="box box-1">
+              <div class="box_component">
+                <a class="box_path-settings" href='/templates/fashion'>
+                  <GlassEffect />
+                </a>
+              </div>
+            </div>
+            <div class="box box-2">
+              <div class="box_component">
+                <a class="box_path-settings" href='/templates/decor'>
+                  <GlassEffect />
+                </a>
+              </div>
+            </div>
+            <div class="box box-3">
+              <div class="box_component">
+                <a class="box_path-settings" href='/templates/sites'>
+                  <GlassEffect />
+                </a>
+              </div>
+            </div>
           </div>
           <div class="pattern_text">
-            <div class="templates_text">T-shirt shops</div>
-            <div class="templates_text">Beauty salon</div>
-            <div class="templates_text">Landing of goods</div>
+            <div class="templates_text">Moda i odzież</div>
+            <div class="templates_text">Dom i wystrój</div>
+            <div class="templates_text">Sklepy online</div>
           </div>
           {/* LINE 2  */}
           <div class="pattern_box">
-            <div class="box box-4" />
-            <div class="box box-5" />
-            <div class="box box-6" />
+            <div class="box box-4">
+              <div class="box_component">
+                <a class="box_path-settings" href='/templates/electronics'>
+                  <GlassEffect />
+                </a>
+              </div>
+            </div>
+            <div class="box box-5">
+              <div class="box_component">
+                <a class="box_path-settings" href='/templates/books'>
+                  <GlassEffect />
+                </a>
+              </div>
+            </div>
+            <div class="box box-6">
+              <div class="box_component">
+                <a class="box_path-settings" href='/templates/accessories'>
+                  <GlassEffect />
+                </a>
+              </div>
+            </div>
           </div>
           <div class="pattern_text">
-            <div class="templates_text">Canned Drink Store</div>
-            <div class="templates_text">Electronics store</div>
-            <div class="templates_text">Accessories store</div>
+            <div class="templates_text">Sklep z elektroniką</div>
+            <div class="templates_text">Książki</div>
+            <div class="templates_text">Akcesoria</div>
           </div>
           {/* LINE 3  */}
           <div class="pattern_box">
-            <div class="box box-7" />
-            <div class="box box-8" />
-            <div class="box box-9" />
+            <div class="box box-7">
+              <div class="box_component">
+                <a class="box_path-settings" href='/templates/jewelry'>
+                  <GlassEffect />
+                </a>
+              </div>
+            </div>
+            <div class="box box-8">
+              <div class="box_component">
+                <a class="box_path-settings" href='/templates/sport'>
+                  <GlassEffect />
+                </a>
+              </div>
+            </div>
+            <div class="box box-9">
+              <div class="box_component">
+                <a class="box_path-settings" href='/templates/beauty'>
+                  <GlassEffect />
+                </a>
+              </div>
+            </div>
           </div>
           <div class="pattern_text">
-            <div class="templates_text">Health goods store</div>
-            <div class="templates_text">Accessories store</div>
-            <div class="templates_text">A clothing store</div>
+            <div class="templates_text">Biżuteria</div>
+            <div class="templates_text">Sport</div>
+            <div class="templates_text">Piękność</div>
           </div>
           {/* LINE 4  */}
           <div class="pattern_box">
-            <div class="box box-10" />
-            <div class="box box-11" />
-            <div class="box box-12" />
+            <div class="box box-10">
+              <div class="box_component">
+                <a class="box_path-settings" href='/templates/restaurants'>
+                  <GlassEffect />
+                </a>
+              </div>
+            </div>
+            <div class="box box-11">
+              <div class="box_component">
+                <a class="box_path-settings" href='/templates/services'>
+                  <GlassEffect />
+                </a>
+              </div>
+            </div>
+            <div class="box box-12">
+              <div class="box_component">
+                <a class="box_path-settings" href='/templates/blissful'>
+                  <GlassEffect />
+                </a>
+              </div>
+            </div>
           </div>
           <div class="pattern_text">
-            <div class="templates_text">Backpack store</div>
-            <div class="templates_text">Hardware store</div>
-            <div class="templates_text">Supermarket</div>
+            <div class="templates_text">Restauracje</div>
+            <div class="templates_text">Usługi</div>
+            <div class="templates_text">Blogi</div>
           </div>
         </div>
       </div>
