@@ -1,9 +1,10 @@
 import React from 'react';
 
 import '../style/templates.css';
-import { Pagination } from '@mui/material';
+// import { Pagination } from '@mui/material';
 import Types from '../components/Types';
 import GlassEffect from '../components/GlassEffect';
+import DropMenu from '../components/DropMenu';
 
 const Templates = () => {
   return (
@@ -16,25 +17,7 @@ const Templates = () => {
           </div>
         </div>
         <div class="templates_border" />
-        <div class="templates_buttons-container">
-          <div class="templates_buttons">
-            <div class="templates_intro-button-text">
-              Wszystkie szablony
-              <i class="down" />
-              <div class="submenu">
-                Podmenu
-              </div>
-            </div>
-            <div class="templates_intro-button-text">
-              Puste szablony
-              <i class="down" />
-            </div>
-            <div class="templates_intro-button-text">
-              Inni
-              <i class="down" />
-            </div>
-          </div>
-        </div>
+        <DropMenu />
         <div class="templates_border-buttons" />
       </div>
       {/* Main body */}
@@ -163,11 +146,11 @@ const Templates = () => {
         </div>
       </div>
       {/* Pagination */}
-      <div class="pagination">
+      {/* <div class="pagination">
         <div class="pagination_conteiner">
           <Pagination count={10} shape="rounded" />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

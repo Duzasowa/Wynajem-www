@@ -38,7 +38,7 @@ const Navbar = () => {
                   style={{ textDecoration: 'none', color: 'white' }}
                   href="/auth"
                 >
-                  Log in
+                  Zamów
                 </a>
               </Button>
             </div>

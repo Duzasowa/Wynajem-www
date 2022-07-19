@@ -1,4 +1,5 @@
 import React from 'react';
+import DropMenu from '../../components/DropMenu';
 import Types from '../../components/Types';
 
 const Electronics = () => {
@@ -13,22 +14,7 @@ const Electronics = () => {
             </div>
           </div>
           <div class="templates_border" />
-          <div class="templates_buttons-container">
-            <div class="templates_buttons">
-              <div class="templates_intro-button-text">
-                All templates
-                <i class="down" />
-              </div>
-              <div class="templates_intro-button-text">
-                Blank templates
-                <i class="down" />
-              </div>
-              <div class="templates_intro-button-text">
-                Other
-                <i class="down" />
-              </div>
-            </div>
-          </div>
+          <DropMenu />
           <div class="templates_border-buttons" />
         </div>
 

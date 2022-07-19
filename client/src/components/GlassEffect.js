@@ -1,5 +1,5 @@
 import React from 'react';
-import './style/GlassEffect.css';
+import '../style/GlassEffect.css';
 
 const GlassEffect = () => {
   return (
