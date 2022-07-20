@@ -3,7 +3,7 @@
 .support {
   width: 100%;
   height: 360px;
-  background-color: black;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6)
 }
 
 .support-box {
@@ -33,7 +33,29 @@
   width: 80%;
   padding-top: 35px;
   margin: 0 auto;
+  align-items: center;
+  justify-content: center;
   display: flex;
+}
+
+.support_search-button {
+  width: 200px;
+  height: 50px;
+  font-weight: 800;
+  font-size: 18px;
+  cursor: pointer;
+
+  text-align: center;
+  color: #fff;
+  padding-top: 15px;
+  background-color: #AA4DC8;
+  border-radius: 50px;
+}
+
+.support_search-button:hover {
+  color: #AA4DC8;
+  transition: 1s;
+  background-color: #fff;
 }
 
 .support_search-text {

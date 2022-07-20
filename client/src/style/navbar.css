@@ -23,14 +23,14 @@
 
 .logo_container {
   width: 120px;
-  height: 40px;
+  height: 45px;
 
   text-decoration: none;
   color: red;
   font-size: 30px;
   font-weight: 600;
   margin: 17px 60px;
-  background: url(../img/logo\ 2.png) no-repeat center;
+  background: url(../img/navbar/1.svg) no-repeat center;
   background-size: cover;
 }
 
@@ -47,6 +47,12 @@
   color: black;
   font-family: 'Lato', sans-serif;
   font-weight: 900;
+}
+
+.menu_text-disabled {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  color: grey;
 }
 
 .menu_text:hover {

@@ -34,6 +34,7 @@
         "react-hooks/rules-of-hooks": "error",
         "react/no-unknown-property": [0],
         "react-hooks/exhaustive-deps": "warn",
+        "jsx-a11y/label-has-associated-control": "warn",
         "react/function-component-definition": [
             2,
             {

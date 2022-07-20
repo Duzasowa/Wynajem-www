@@ -1,18 +1,16 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import '../style/support.css';
-import SearchIcon from '@mui/icons-material/Search';
 
 const Support = () => {
   return (
     <div>
       <div class="support">
         <div class="support-box">
-          <div class="support_HORN-H-C">Horn Help Center</div>
-          <div class="support_all-of">All of our knowledge right at your fingertips.Ask Questions. Browse Articles. Find Answers.</div>
+          <div class="support_HORN-H-C">Adima Help Center</div>
+          <div class="support_all-of">Cała wiedza na wyciągnięcie ręki. Zadawaj pytania. Przeglądaj artykuły. Znajdź odpowiedzi.</div>
           <div class="support_search">
-            <input type="text" class="support_search-text" placeholder="What are you looking for?" />
-            <button type="submit" class="support_searchButton"><SearchIcon /></button>
+            <div class="support_search-button">Zadać pytanie</div>
           </div>
         </div>
       </div>

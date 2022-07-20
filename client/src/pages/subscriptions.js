@@ -10,10 +10,10 @@ const Subscriptions = () => {
     <div class="subscriptions">
       {/* Intro container */}
       <div class="subscriptions_intro-container">
-        <div class="subscriptions_main-text">Horn premium plans</div>
+        <div class="subscriptions_main-text">Adima premium plans</div>
         <div class="subscriptions_discription-text">
-          Horn offers hundreds of templates, unlimited pages and first-class
-          hosting for free. Go to Premium and get even more.
+          Adima oferuje setki szablonów, nieograniczoną liczbę stron i 
+          hosting premium za darmo. Przejdź na Premium i zyskaj jeszcze więcej.
         </div>
         <a class="subscriptions_button" href="./subscriptions">
           <Button

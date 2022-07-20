@@ -13,15 +13,16 @@ const Navbar = () => {
           <div class="left_container">
             <a href="/main" class="logo_container" />
             <div class="navigarion_container">
-              <div class="menu_text">Functions</div>
-              <div class="menu_text">Gallary</div>
+              <a href="/main" class="menu_text">Główna</a>
+              <div class="menu_text-disabled">Functions</div>
+              <div class="menu_text-disabled">Gallary</div>
               <a href="/subscriptions" class="menu_text">
-                Subcriptions
+                Oferta
               </a>
               <a href="/templates" class="menu_text">
-                Templates
+                Marketplace
               </a>
-              <div class="menu_text">Support</div>
+              <a href="/support" class="menu_text">Support</a>
             </div>
           </div>
           {/* <---rigth_container--> */}
@@ -36,7 +37,7 @@ const Navbar = () => {
               >
                 <a
                   style={{ textDecoration: 'none', color: 'white' }}
-                  href="/auth"
+                  href="/form"
                 >
                   Zamów
                 </a>

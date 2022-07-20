@@ -1,5 +1,5 @@
 import Admin from './pages/admin';
-import Auth from './pages/auth';
+import Form from './pages/form';
 import Main from './pages/main';
 import Subscriptions from './pages/subscriptions';
 import Templates from './pages/templates ';
@@ -14,10 +14,10 @@ import {
   DECOR_ROUTE,
   ELECTRONICS_ROUTE,
   FASHION_ROUTE,
+  FORM_ROUTE,
   JEWELRY_ROUTE,
-  LOGIN_ROUTE,
   MAIN_ROUTE,
-  REGISTRATION_ROUTE,
+  PRIVACY_ROUTE,
   RESTAURANTS_ROUTE,
   SERVICES_ROUTE,
   SITES_ROUTE,
@@ -41,6 +41,7 @@ import Jewelry from './templates/pages/Jewelry';
 import Restaurants from './templates/pages/Restaurants';
 import Services from './templates/pages/Services';
 import Sport from './templates/pages/Sport';
+import Privacy from './pages/privacy';
 
 export const authRoutes = [
   {
@@ -55,12 +56,8 @@ export const publicRoutes = [
     Component: Main,
   },
   {
-    path: LOGIN_ROUTE,
-    Component: Auth,
-  },
-  {
-    path: REGISTRATION_ROUTE,
-    Component: Auth,
+    path: FORM_ROUTE,
+    Component: Form,
   },
   {
     path: SUBSCRIPTIONS_ROUTE,
@@ -73,6 +70,10 @@ export const publicRoutes = [
   {
     path: SUPPORT_ROUTE,
     Component: Support,
+  },
+  {
+    path: PRIVACY_ROUTE,
+    Component: Privacy,
   },
 
   // TEMPLATES MAIN PAGES
